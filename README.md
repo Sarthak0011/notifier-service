@@ -35,7 +35,7 @@ SPRING_KAFKA_BOOTSTRAP_SERVERS=localhost:9092
   "enabledChannels": ["EMAIL", "TELEGRAM"],
   "metadata": {
     "email": "john.doe@example.com",
-    "subject": "Welcome to SpeedBot",
+    "subject": "Welcome to Notifier",
     "message": "Thanks for signing up, John!",
     "user": "john.doe"
   }
