@@ -20,9 +20,9 @@ A generic, scalable **Notification Microservice** built using Spring Boot and Ka
 Sensitive data like email credentials and Kafka configs should be passed via **environment variables**:
 
 ```env
-SPRING_MAIL_USERNAME=your_email@gmail.com
-SPRING_MAIL_PASSWORD=your_password
-SPRING_KAFKA_BOOTSTRAP_SERVERS=localhost:9092
+KAFKA_BOOTSTRAP_SERVERS=localhost:9092
+MAIL_PASSWORD=your-password
+MAIL_USERNAME=email@email.com
 ```
 
 ---
